@@ -291,10 +291,19 @@ button{
 }
 
 .section-three-list-item{
-        border-bottom: 1px solid #e7e9fc;
+        /* border-bottom: 1px solid #e7e9fc;
                 border-left: 1px solid #e7e9fc;
-                border-right: 1px solid #e7e9fc;
+                border-right: 1px solid #e7e9fc; */
         width: calc((100% - 24px * 2) / 3);
+}
+.item-application{
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        padding-right: 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+
 }
 
 .section-three-list .item-title {
@@ -303,8 +312,6 @@ button{
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
-        padding-left: 16px;
         margin-bottom: 8px;
 }
 
@@ -314,8 +321,6 @@ button{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-left: 16px;
-        padding-bottom: 32px;
 }
 /* #endregion section 3 */
 
@@ -334,7 +339,8 @@ button{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        /* margin-bottom: 16px; */
+        display: inline-block;
+        margin-bottom: 16px;
         
 }
 
@@ -349,6 +355,5 @@ button{
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-top: 16px;
 }
 /* #endregion footer */
